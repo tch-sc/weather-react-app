@@ -1,0 +1,52 @@
+.Weather {
+  background-color: #bbe4e9;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+.Weather .current-btn {
+  margin-left: 5px;
+}
+
+.Weather .current-weather-description {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.Weather .overview {
+  margin-bottom: 50px;
+}
+
+.Weather .meteorology {
+  font-size: 14px;
+}
+
+.Weather .current-weather strong {
+  font-size: 38px;
+  font-weight: 500;
+}
+
+.Weather .current-weather {
+  font-size: 14px;
+}
+
+.Weather .current-weather .active {
+  color: black;
+  cursor: default;
+}
+
+.units {
+  position: relative;
+  font-size: 18px;
+  top: -15px;
+}
+
+.Weather .current-city {
+  font-size: 38px;
+  text-align: right;
+}
+
+.Weather .current-date {
+  font-size: 16px;
+  text-align: right;
+}
