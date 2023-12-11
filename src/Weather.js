@@ -16,7 +16,7 @@ export default function Weather() {
     <div className="Weather">
       <div className="overview">
         <div className="d-flex justify-content-center">
-          <form>
+          <form className="city-search">
             <input
               autoFocus="on"
               placeholder="Enter City Name"

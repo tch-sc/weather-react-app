@@ -7,7 +7,7 @@ export default function App() {
       <div className="container">
         <Weather />
 
-        <footer className="coder">
+        <footer>
           This was created by Tracy C and is{" "}
           <a
             href="https://github.com/tch-sc/weather-react-app"

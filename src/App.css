@@ -1,33 +1,9 @@
-body {
-  margin-top: 70px;
+.App {
+  margin: 70px auto;
+  max-width: 40em;
 }
 
-input {
-  margin-top: 30px;
-  margin-bottom: 35px;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  list-style: none;
-}
-
-.row {
-  display: grid;
-  grid-auto-flow: column;
-  justify-content: center;
-}
-
-.col .col-2 {
-  margin-bottom: 60px;
-  margin-top: 25px;
-}
-
-.coder {
+.App footer {
   font-size: 12px;
   padding: 20px 0px;
   text-align: center;
