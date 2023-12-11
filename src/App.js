@@ -5,6 +5,16 @@ export default function App() {
   return (
     <div className="App">
       <Weather />
+      <div className="coder">
+        This was created by Tracy C and is{" "}
+        <a
+          href="https://github.com/tch-sc/weather-react-app"
+          target="_blank"
+          rel="noreferrer"
+        >
+          open-sourced on GitHub
+        </a>
+      </div>
     </div>
   );
 }
