@@ -1,0 +1,53 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.row {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+}
+
+.col .col-2 {
+  margin-bottom: 60px;
+  margin-top: 25px;
+}
+
+.meteorology {
+  font-size: 14px;
+}
+
+.current-weather strong {
+  font-size: 38px;
+  font-weight: 500;
+}
+
+.current-weather {
+  font-size: 14px;
+}
+
+.current-weather .active {
+  color: black;
+  cursor: default;
+}
+
+.units {
+  position: relative;
+  font-size: 18px;
+  top: -15px;
+}
+
+.current-city {
+  font-size: 38px;
+  text-align: right;
+}
+
+.current-date {
+  font-size: 16px;
+  text-align: right;
+}

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import FormattedDate from "./FormattedDate";
+import WeatherInfo from "./WeatherInfo";
 import "./Weather.css";
 import axios from "axios";
 
@@ -35,40 +35,7 @@ export default function Weather(props) {
               <input type="submit" value="Current" className="current-btn" />
             </form>
           </div>
-          <div className="row align-items-start">
-            <div className="col-2 current-weather-description">
-              <ul>
-                <li>
-                  <img
-                    src={weatherData.imgUrl}
-                    alt={weatherData.description}
-                    className="weather-icon"
-                  />
-                </li>
-                <li className="text-capitalize text-nowrap text-center">
-                  {weatherData.description}
-                </li>
-              </ul>
-            </div>
-            <div className="col meteorology">
-              <ul>
-                <li className="current-weather">
-                  <strong>{Math.round(weatherData.temperature)}</strong>
-                  <span className="units">°C</span>
-                </li>
-                <li>Humidity: {weatherData.humidity}%</li>
-                <li>Wind Speed: {Math.round(weatherData.wind)} km/h</li>
-              </ul>
-            </div>
-            <div className="col">
-              <ul>
-                <li className="current-city">{weatherData.city}</li>
-                <li className="current-date">
-                  <FormattedDate date={weatherData.date} />
-                </li>
-              </ul>
-            </div>
-          </div>
+          <WeatherInfo data={weatherData} />
         </div>
       </div>
     );
