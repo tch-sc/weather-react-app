@@ -20,6 +20,19 @@ li {
 
 .meteorology {
   font-size: 14px;
+  margin-top: -10px;
+}
+
+.current-weather-description {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: right;
+  margin-top: -2px;
+}
+
+.weather-icon {
+  margin-top: -10px;
+  padding-left: 30px;
 }
 
 .current-weather strong {
@@ -45,6 +58,7 @@ li {
 .current-city {
   font-size: 38px;
   text-align: right;
+  margin-top: -10px;
 }
 
 .current-date {

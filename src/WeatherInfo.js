@@ -7,15 +7,15 @@ export default function WeatherInfo(props) {
     <div className="row align-items-start">
       <div className="col-2 current-weather-description">
         <ul>
+          <li className="text-capitalize text-nowrap text-center">
+            {props.data.description}
+          </li>
           <li>
             <img
               src={props.data.imgUrl}
               alt={props.data.description}
               className="weather-icon"
             />
-          </li>
-          <li className="text-capitalize text-nowrap text-center">
-            {props.data.description}
           </li>
         </ul>
       </div>
