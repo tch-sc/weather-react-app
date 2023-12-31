@@ -15,6 +15,7 @@ export default function WeatherInfo(props) {
               src={props.data.imgUrl}
               alt={props.data.description}
               className="weather-icon"
+              width={140}
             />
           </li>
         </ul>

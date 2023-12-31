@@ -26,13 +26,12 @@ li {
 .current-weather-description {
   font-size: 25px;
   font-weight: 600;
-  text-align: right;
   margin-top: -2px;
 }
 
 .weather-icon {
+  display: block;
   margin-top: -10px;
-  padding-left: 30px;
 }
 
 .current-weather strong {
